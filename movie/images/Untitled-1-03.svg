@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 310 465">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f29e65;
+        font-family: MyriadPro-Regular, 'Myriad Pro';
+        font-size: 60px;
+      }
+
+      .cls-2 {
+        fill: #1d2255;
+      }
+    </style>
+  </defs>
+  <rect class="cls-2" width="310" height="465"/>
+  <text class="cls-1" transform="translate(49.89 143.93)"><tspan x="0" y="0">MOVIE C</tspan></text>
+</svg>

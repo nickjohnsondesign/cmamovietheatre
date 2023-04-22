@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>CMA Tickets</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chivo:wght@200;500&family=Lora&family=M+PLUS+1p&family=Nanum+Gothic&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" href="images/favicon-01.png">
+<link rel="stylesheet" href="moviestylesheet.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a><img src="images/home.png" alt="home icon" style="height: 100px; width: 100px;"></li>
+            <li><a href="tickets.html">Order Tickets</a><img src="images/ticketsymbol-01.png" alt="order tickets" style="height: 100px; width: 100px;"></li>
+            <li><a href="food.html">Food/Drink</a><img src="images/fooddrink.png" alt="Food and drink section" style="height: 100px; width: 100px;"></li>
+            <li><a href="contact.html">Contact</a><img src="images/contact.png" alt="Contact page" style="height: 100px; width: 100px;"></li>
+            <li><a href="about.html">About Us</a><img src="images/aboutus.png" alt="About section" style="height: 100px; width: 100px;"></li>
+        </ul>
+      </nav>
+      <div class="cmalogo">
+      <p><a href="index.html"><img src="images/CMAlogotest.png" alt="logo"></a></p>
+    </div>
+<div class="ticketform">
+<h1>Choose between a great selection of movies showing at our theatres here! Pick the movie and time you would like to see it at.</h1>
+<div class="forms">
+<fieldset><legend>Your Information</legend>
+<ul>
+    <li><label for="customername">Name:</label> <input type="text" name="customername" id="customername"></li>
+    <li><label for="telephone">Number:</label> <input type="tel" name="telephone" id="telephone"></li>
+</ul></fieldset>
+
+<fieldset>
+<legend>Movie</legend>
+<ul>
+    <li><label><input type="radio" name="movie" value="Movie A">Movie A</label></li>
+    <li><label><input type="radio" name="movie" value="Movie B">Movie B</label></li>
+    <li><label><input type="radio" name="movie" value="Movie C">Movie C</label></li>
+    <li><label><input type="radio" name="movie" value="Movie D">Movie D</label></li>
+    <li><label><input type="radio" name="movie" value="Movie E">Movie E</label></li>
+</ul></fieldset>
+
+<fieldset>
+<legend>Time</legend>
+<ul>
+    <li><label class="radio"><input type="radio" name="Showing Time" value="10:30 AM">10:30 PM</label></li>
+    <li><label class="radio"><input type="radio" name="Showing Time" value="12:00 PM">12:00 PM</label></li>
+    <li><label class="radio"><input type="radio" name="Showing Time" value="1:30 PM">1:30 PM</label></li>
+    <li><label class="radio"><input type="radio" name="Showing Time" value="3:00 PM">3:00 PM</label></li>
+    <li><label class="radio"><input type="radio" name="Showing Time" value="4:30 PM">4:30 PM</label></li>
+    <li><label class="radio"><input type="radio" name="Showing Time" value="6:00 PM">6:00 PM</label></li>
+    <li><label class="radio"><input type="radio" name="Showing Time" value="7:30 PM">7:30 PM</label></li>
+    <li><label class="radio"><input type="radio" name="Showing Time" value="9:00 PM">9:00 PM</label></li>
+    <li><label class="radio"><input type="radio" name="Showing Time" value="10:30 PM">10:30 PM</label></li>
+</ul></fieldset>
+<fieldset class="input">
+    <legend>Ticket Amount</legend>
+    <p style="text-align: left;">How many tickets:  <input type="number" name="tickets" value="1"></p> 
+    
+       <form class="ticketsubmit" action="ticketthankyou.html">
+       <input type="submit" value="Submit">
+       </form><input type="reset">
+    
+</fieldset>
+</div>
+</div>
+<footer>
+    <div class="button">
+      <a href="#top"><img class="button" src="images/topbutton.png" alt="Back to top button"></a>
+    </div>
+    CMA&copy; is designed by Nicholas Johnson. 2023 
+  </footer>
+  </body>
+  </html>
