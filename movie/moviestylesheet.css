@@ -321,11 +321,11 @@ footer{
 .button{
   bottom: 20px;
   right: 20px;
-  width: 2%;
+  width: 2.5%;
   height: auto;
   position: fixed;
   z-index: 1;
-  opacity: .5;
+  opacity: .65;
 }
 .button img {
   transition: all 0.1s ease-in-out;
